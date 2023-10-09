@@ -328,6 +328,7 @@ text-align: center;
     background-color: rgba(77, 90, 229, 1);
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background:  #404bbf;
 }
 .social-link:hover,
 .social-link:focus {

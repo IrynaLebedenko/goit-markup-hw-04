@@ -334,7 +334,8 @@ text-align: center;
     background:  #4d5ae5;
 }
 .social-link:hover {
-background-color: #404bbf; 
+background-color: #404bbf;;
+ 
    
 }
 .social-link:focus {
@@ -347,7 +348,7 @@ background-color: #404bbf;
     
 }
 .main-hero-soc-ikon {
-    
+
 fill: #f4f4fd;
 }
 .main-portfolio {
@@ -389,8 +390,8 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
     
 }
 .container-main-portfolio-item:hover {
+ transform: translateY(0%);
 box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
-transform: translateY(0%);
 
 }
 .main-portfolio-image {
@@ -401,6 +402,8 @@ transform: translateY(0%);
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    position: relative;
+    overflow: hidden;
 }
 .main-portfolio-subtitle {
 font-weight: 500;
@@ -413,7 +416,6 @@ margin-bottom: 8px;
 }
 
 .main-portfolio-text {
-color:#434455;
 position: absolute;
 top: 0;
 font-size: 16px;
@@ -434,7 +436,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer {
 background-color: #2e2f42;
 padding: 100px 156px;
-
+align-items: baseline,
 }
 .container-common{
     display: flex;
@@ -467,6 +469,21 @@ font-weight: 500;
 color: #FFFFFF;
 margin-bottom: 16px;
 
+}
+.footer-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background:  #4d5ae5;
+}
+.footer-social-link:hover,
+.footer-social-link:focus{
+    background-color: #31d0aa;
 }
 .container-one-footer{
     margin-right: 120px;

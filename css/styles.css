@@ -387,7 +387,7 @@ position: relative;
 
     
 }
-.container-main-portfolio-item:hover .main-portfolio--text {
+.container-main-portfolio-item:hover .main-portfolio-text {
 transform: translateY(0%); 
 overflow: hidden;
 

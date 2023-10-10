@@ -86,7 +86,7 @@ color:#404BBF
 .current-header-link-item {
     color: #404BBF;
 }
-.header-social-link::after {
+.current-header-link-item::after {
 content: "";
 position: absolute;
 left: 0;

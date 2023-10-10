@@ -438,7 +438,7 @@ overflow: hidden;
 .footer {
 background-color: #2e2f42;
 padding: 100px 156px;
-align-items: baseline,
+align-items: baseline;
 }
 .footer-container-common {
     display: flex;

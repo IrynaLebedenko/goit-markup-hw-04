@@ -387,14 +387,15 @@ position: relative;
 
     
 }
-.container-main-portfolio-item:hover .main-portfolio-div-text {
+.container-main-portfolio-item:hover .main-portfolio--text {
 transform: translateY(0%); 
 overflow: hidden;
 
 }
 .container-main-portfolio-item:hover {
 box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-.main-portfolio-image 
+}
+.main-portfolio-image{ 
     
 }
 .container-main-portfolio-item-app {

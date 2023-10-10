@@ -391,7 +391,7 @@ box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.
     
 }
 .container-main-portfolio-item:hover {
- transform: translateY(0%);
+transform: translateY(0%);
 box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 
 }
@@ -442,7 +442,7 @@ align-items: baseline,
 }
 .footer-container-common {
     display: flex;
-    align-items: baseline,
+    align-items: baseline;
     gap: 120px;
 }   
 

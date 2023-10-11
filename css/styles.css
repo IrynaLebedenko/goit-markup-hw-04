@@ -97,6 +97,8 @@ background-color: #404BBF;
 border-radius: 2px;
 
 }
+
+.current-header-link-item
 .header-address {
     font-style: normal;
 }
@@ -145,6 +147,7 @@ max-width: 1440px;
 background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
+margin: 0 auto;
 }
 
 
@@ -439,7 +442,7 @@ align-items: baseline;
 .footer-container-common {
     display: flex;
     align-items: baseline;
-    gap: 120px;
+  
 }   
 
 .footer-link-logo { 
@@ -464,9 +467,7 @@ line-height: 1.5;
 color: #F4F4FD;
 letter-spacing: 0.02em;
 max-width: 264px;
-font-weight: 500;
 color: #FFFFFF;
-margin-bottom: 16px;
 
 }
 
@@ -489,9 +490,6 @@ margin-bottom: 16px;
 
 .container-one-footer{
     margin-right: 120px;
-    width: 264px;
-    height: 112px;
-
 }
 
 .footer-social-link-item {
@@ -500,8 +498,6 @@ margin-bottom: 16px;
 }
 
 .container-two-footer{
-    width: 208px;
-    height: 80px;
     
 }
 
